@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: git-ftp push
-      uses: stackcci/git-ftp-action@releases/v1
+      uses: stackcci/git-ftp-deploy@1.0.0
       with:
         url: "ftp://ftp.example.com/path/"
         user: ${{ secrets.FTP_USER }}
