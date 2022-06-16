@@ -10,4 +10,8 @@ RUN chmod 755 /bin/git-ftp
 
 COPY entrypoint.sh /entrypoint.sh
 
+RUN ["chmod", "+x", "/entrypoint.sh"]
+
 ENTRYPOINT ["/entrypoint.sh"]
+
+
