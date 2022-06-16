@@ -1,4 +1,4 @@
-# git-ftp-action
+# git-ftp-deploy
 
 Uses [git-ftp](https://github.com/git-ftp/git-ftp) and [GitHub actions](https://github.com/features/actions) to deploy a GitHub repository to a FTP server.
 
